@@ -1,0 +1,59 @@
+$date
+	Mon Sep 16 09:32:51 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_dataModeling $end
+$var wire 1 ! xorout $end
+$var wire 1 " xnorout $end
+$var wire 1 # orout $end
+$var wire 1 $ notout $end
+$var wire 1 % norout $end
+$var wire 1 & nandout $end
+$var wire 1 ' andout $end
+$var reg 1 ( A $end
+$var reg 1 ) B $end
+$var integer 32 * i [31:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+0)
+0(
+0'
+1&
+1%
+1$
+0#
+1"
+0!
+$end
+#5
+0%
+0"
+1#
+1!
+1)
+b1 *
+#10
+0$
+1(
+0)
+b10 *
+#15
+0&
+1"
+1'
+0!
+1)
+b11 *
+#20
+b100 *
