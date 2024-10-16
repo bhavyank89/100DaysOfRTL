@@ -1,0 +1,42 @@
+$date
+	Sun Sep 15 08:17:52 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_parityGenerator_3Bit_Even $end
+$var wire 1 ! P $end
+$var reg 3 " A [2:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 "
+0!
+$end
+#10
+1!
+b1 "
+#20
+b10 "
+#30
+0!
+b11 "
+#40
+1!
+b100 "
+#50
+0!
+b101 "
+#60
+b110 "
+#70
+1!
+b111 "
+#80
