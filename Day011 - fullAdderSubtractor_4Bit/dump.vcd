@@ -1,0 +1,37 @@
+$date
+	Wed Oct 16 11:50:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_fullAdderSubtractor $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " carry $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % en $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5
+1"
+b101 !
+b1011 $
+b1010 #
+#10
+0"
+b1111 !
+1%
