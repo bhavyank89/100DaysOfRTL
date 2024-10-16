@@ -1,0 +1,44 @@
+$date
+	Wed Oct 16 11:52:52 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_cLAA $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " carry $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5
+1"
+b101 !
+b1100 $
+b1001 #
+#10
+b11 !
+b1001 $
+b1010 #
+#15
+0"
+b110 !
+1%
+b1 $
+b100 #
+#25
