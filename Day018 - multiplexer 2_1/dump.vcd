@@ -1,0 +1,29 @@
+$date
+	Wed Oct 16 12:09:06 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_mux_2_1 $end
+$var wire 1 ! Y $end
+$var reg 1 " I0 $end
+$var reg 1 # I1 $end
+$var reg 1 $ S0 $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+1"
+1!
+$end
+#10
+0!
+1$
