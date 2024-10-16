@@ -1,0 +1,43 @@
+$date
+	Wed Oct 16 11:59:37 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_4bit $end
+$var wire 1 ! lesser $end
+$var wire 1 " greater $end
+$var wire 1 # equal $end
+$var reg 4 $ a [3:0] $end
+$var reg 4 % b [3:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+b0 $
+1#
+0"
+0!
+$end
+#5
+0#
+1!
+b1101 %
+b1100 $
+#10
+1#
+0!
+b101 %
+b101 $
+#15
+0#
+1"
+b1011 $
+#65
