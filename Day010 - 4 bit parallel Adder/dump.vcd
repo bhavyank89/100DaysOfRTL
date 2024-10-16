@@ -1,0 +1,44 @@
+$date
+	Sun Sep 15 06:24:28 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_fullAdder_4Bit $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " carry $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % Cin $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5
+b1 !
+b1 $
+b1 &
+#10
+b10 !
+b10 $
+b10 &
+#15
+b11 !
+b11 $
+b11 &
+#20
+b100 &
