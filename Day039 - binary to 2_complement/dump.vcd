@@ -1,0 +1,90 @@
+$date
+	Thu Oct 17 00:21:41 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_2Com $end
+$var wire 4 ! complement_2 [3:0] $end
+$var reg 4 " B [3:0] $end
+$var integer 32 # i [31:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 #
+b0 "
+b0 !
+$end
+#5
+b1 #
+#10
+b1111 !
+b10 #
+b1 "
+#15
+b1110 !
+b11 #
+b10 "
+#20
+b1101 !
+b100 #
+b11 "
+#25
+b1100 !
+b101 #
+b100 "
+#30
+b1011 !
+b110 #
+b101 "
+#35
+b1010 !
+b111 #
+b110 "
+#40
+b1001 !
+b1000 #
+b111 "
+#45
+b1000 !
+b1001 #
+b1000 "
+#50
+b111 !
+b1010 #
+b1001 "
+#55
+b110 !
+b1011 #
+b1010 "
+#60
+b101 !
+b1100 #
+b1011 "
+#65
+b100 !
+b1101 #
+b1100 "
+#70
+b11 !
+b1110 #
+b1101 "
+#75
+b10 !
+b1111 #
+b1110 "
+#80
+b1 !
+b10000 #
+b1111 "
+#85
+b0 !
+b10001 #
+b0 "
