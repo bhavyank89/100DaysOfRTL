@@ -1,0 +1,85 @@
+$date
+	Thu Oct 17 01:29:46 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench_BCDtoExcess3 $end
+$var wire 4 ! excess3 [3:0] $end
+$var reg 4 " BCD [3:0] $end
+$var integer 32 # i [31:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 #
+b0 "
+b11 !
+$end
+#5
+b1 #
+#10
+b100 !
+b10 #
+b1 "
+#15
+b101 !
+b11 #
+b10 "
+#20
+b110 !
+b100 #
+b11 "
+#25
+b111 !
+b101 #
+b100 "
+#30
+b1000 !
+b110 #
+b101 "
+#35
+b1001 !
+b111 #
+b110 "
+#40
+b1010 !
+b1000 #
+b111 "
+#45
+b1011 !
+b1001 #
+b1000 "
+#50
+b1100 !
+b1010 #
+b1001 "
+#55
+bx !
+b1011 #
+b1010 "
+#60
+b1100 #
+b1011 "
+#65
+b1101 #
+b1100 "
+#70
+b1110 #
+b1101 "
+#75
+b1111 #
+b1110 "
+#80
+b10000 #
+b1111 "
+#85
+b11 !
+b10001 #
+b0 "
